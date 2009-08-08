@@ -10,9 +10,11 @@ You will need installs of both JRuby and Terracotta with JRUBY_HOME and TC_HOME 
     export JRUBY_HOME=$HOME/java/jruby-1.3.1
     export TC_HOME=$HOME/java/terracotta-3.0.1
 
-Once these environment variables have been setup you can start a Terracotta server, followed launching multiple clients by typing:
+Once these environment variables have been setup you can start a Terracotta server, followed by launching multiple clients by typing:
 
-    ./chat.sh
+    ./chat.sh <username>
+
+(You may have to edit chat.sh if you're not on OSX - get the right settings by running Terracotta's dso-env.sh script)
 
 ## Background ##
 
